@@ -8,7 +8,7 @@ In other words, is the distribution of the causes of power outages the same unde
 # Data Cleaning and EDA
 
 **Data Cleaning**
-
+newnewnew
 **Univariate Analysis**
 
 **Bivariate Analysis**
