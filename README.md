@@ -60,17 +60,17 @@ This is the grouped bar chart between climate and causes. It shows the percentag
 
 **Interesting Aggregates**
 
-`print(pivot.to_markdown(index=False))`
+`print(pivot.to_markdown())`
 
-|   cold |   normal |   warm |
-|-------:|---------:|-------:|
-|     19 |       28 |     10 |
-|     19 |       26 |      5 |
-|    122 |      226 |     70 |
-|     15 |       17 |     14 |
-|     22 |       34 |     13 |
-|    239 |      354 |    166 |
-|     37 |       59 |     30 |
+| CAUSE.CATEGORY                |   cold |   normal |   warm |
+|:------------------------------|-------:|---------:|-------:|
+| equipment failure             |     19 |       28 |     10 |
+| fuel supply emergency         |     19 |       26 |      5 |
+| intentional attack            |    122 |      226 |     70 |
+| islanding                     |     15 |       17 |     14 |
+| public appeal                 |     22 |       34 |     13 |
+| severe weather                |    239 |      354 |    166 |
+| system operability disruption |     37 |       59 |     30 |
 
 This is a pivot table describing the joint distribution of climate and causes, which is closely related to the question. This pivot table is very helpful since it clearly shows us the distributions of each combination and gives us a sense of what our hypothesis test is going to look like and how should we approach it. 
 
