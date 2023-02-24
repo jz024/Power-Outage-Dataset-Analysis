@@ -48,6 +48,10 @@ Below is the head of the cleaned dataframe:
 
 **Univariate Analysis**
 
+<iframe src="assets/cause.html" width=800 height=600 frameBorder=0></iframe>
+
+This is the histogram of distribution/percentage of the causes of power outages(CAUSE.CATEGORY). From the graph, we can see that the number one cause of major power outage is severe weather, the second one is intentional attack, and the last one is islanding. 
+
 **Bivariate Analysis**
 
 **Interesting Aggregates**
@@ -62,4 +66,3 @@ Below is the head of the cleaned dataframe:
 ------
 # Hypothesis Testing
 
-<!-- <iframe src="assets/03-eda.html" width=800 height=600 frameBorder=0></iframe> -->
