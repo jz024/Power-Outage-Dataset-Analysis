@@ -37,6 +37,7 @@ After loading in the data from the csv file, we found that the first four rows w
 Below is the head of the cleaned dataframe:
 
 `print(outage.head().to_markdown(index=False))`
+
 |   YEAR |   MONTH | U.S._STATE   | POSTAL.CODE   | CLIMATE.REGION     | CLIMATE.CATEGORY   | OUTAGE.START.DATE         | OUTAGE.START.TIME   | OUTAGE.RESTORATION.DATE    | OUTAGE.RESTORATION.TIME   | CAUSE.CATEGORY     | CAUSE.CATEGORY.DETAIL   |   HURRICANE.NAMES |   OUTAGE.DURATION |   DEMAND.LOSS.MW |   CUSTOMERS.AFFECTED |   TOTAL.CUSTOMERS | OUTAGE.START        | OUTAGE.RESTORATION   |   CUSTOMERS.PERCENTAGE |
 |-------:|--------:|:-------------|:--------------|:-------------------|:-------------------|:--------------------------|:--------------------|:---------------------------|:--------------------------|:-------------------|:------------------------|------------------:|------------------:|-----------------:|---------------------:|------------------:|:--------------------|:---------------------|-----------------------:|
 |   2011 |       7 | Minnesota    | MN            | East North Central | normal             | Friday, July 1, 2011      | 5:00:00 PM          | Sunday, July 3, 2011       | 8:00:00 PM                | severe weather     | nan                     |               nan |              3060 |              nan |                70000 |           2595696 | 2011-07-01 17:00:00 | 2011-07-03 20:00:00  |                2.69677 |
