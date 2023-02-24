@@ -5,3 +5,5 @@ Introduction
 EDA
 
 new new new
+
+<iframe src="assets/03-eda.html" width=800 height=600 frameBorder=0></iframe>
