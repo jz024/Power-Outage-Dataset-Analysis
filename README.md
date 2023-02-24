@@ -3,12 +3,15 @@ by Jessica Zhang and Tongxun Hu
 
 # Introduction
 
-Are the main causes of power outages under cold climates the same as the main causes of power outages under warm climates? 
-In other words, is the distribution of the causes of power outages the same under cold climates and warm climates?
+Are the main causes of power outages under cold climates the same as
+the main causes of power outages under warm climates? 
+In other words, is the distribution of the causes of power outages
+the same under cold climates and warm climates?
 ------
 # Data Cleaning and EDA
 
 **Data Cleaning**
+
 newnewnew
 
 **Univariate Analysis**
