@@ -1,15 +1,28 @@
-# Power-Outage-Dataset-Analysis
-power outage data analysis for dsc80 project3
+# Power Outage Data Analysis Report
+by Jessica Zhang and Tongxun Hu
 
-Introduction
-EDA
+# Introduction
+**Data Cleaning**
+
+**Univariate Analysis**
+
+**Bivariate Analysis**
+
+**Interesting Aggregates**
+
+------
+# Data Cleaning and EDA
+**NMAR Analysis**
+
+**Missingness Dependency**
+
+------
+# Hypothesis Testing
 
 new new new
 
 <iframe src="assets/03-eda.html" width=800 height=600 frameBorder=0></iframe>
 
-# header
-**bold**
 > blockquote
 1. First item
 2. Second item
@@ -19,4 +32,3 @@ new new new
 - Second item
 - Third item
 `code`
-------
