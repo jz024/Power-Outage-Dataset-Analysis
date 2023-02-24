@@ -10,6 +10,7 @@ the main causes of power outages under warm climates?
 The question and the information on the dataset is significant because it could be used to identify and analyze the patterns and characteristics of major power outages in the U.S., and therefore assess the risk predictors more accurately and better prepare for the future power outage.
 
 The original dataset contains 1540 rows and 57 columns. After brief cleaning and dropping irrelevant columns, the dataset we mainly work on has 1534 rows and 17 columns. 
+
 Below are the relevant columns and their explanations:
 - MONTH : Indicates the month when the outage event occurred
 - U.S._STATE : Represents all the states in the continental U.S.
