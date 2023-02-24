@@ -3,10 +3,28 @@ by Jessica Zhang and Tongxun Hu
 
 # Introduction
 
-Are the main causes of power outages under cold climates the same as
+This data analysis report uses power outage dataset as the main source. This dataset includes the major power outage data in the continental U.S. from January 2000 to July 2016. 
+The question that we are going to investigate is: Are the main causes of power outages under cold climates the same as
 the main causes of power outages under warm climates? 
-In other words, is the distribution of the causes of power outages
-the same under cold climates and warm climates?
+
+The question and the information on the dataset is significant because it could be used to identify and analyze the patterns and characteristics of major power outages in the U.S., and therefore assess the risk predictors more accurately and better prepare for the future power outage.
+
+The original dataset contains 1540 rows and 57 columns. After brief cleaning and dropping irrelevant columns, the dataset we mainly work on has 1534 rows and 17 columns. 
+Below are the relevant columns and their explanations:
+- MONTH : Indicates the month when the outage event occurred
+- U.S._STATE : Represents all the states in the continental U.S.
+- POSTAL.CODE : Represents the postal code of the U.S. states
+- CLIMATE.REGION : U.S. Climate regions as specified by National Centers for Environmental Information (nine climatically consistent regions in continental U.S.A.)
+- CLIMATE.CATEGORY : This represents the climate episodes corresponding to the years. The categories—“Warm”, “Cold” or “Normal” episodes of the climate are based on a threshold of ± 0.5 °C for the Oceanic Niño Index (ONI)
+- OUTAGE.START.DATE : This variable indicates the day of the year when the outage event started
+- OUTAGE.START.TIME : This variable indicates the time of the day when the outage event started
+- OUTAGE.RESTORATION.DATE : This variable indicates the day of the year when power was restored to all the customers
+- OUTAGE.RESTORATION.TIME : This variable indicates the time of the day when power was restored to all the customers
+- CAUSE.CATEGORY : Categories of all the events causing the major power outages
+- OUTAGE.DURATION: Duration of outage events (in minutes)
+- CUSTOMERS.AFFECTED : Number of customers affected by the power outage event
+- TOTAL.CUSTOMERS : Annual number of total customers served in the U.S. state
+
 
 ------
 # Data Cleaning and EDA
