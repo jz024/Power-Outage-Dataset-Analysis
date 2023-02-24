@@ -9,9 +9,10 @@ the main causes of power outages under warm climates?
 
 The question and the information on the dataset is significant because it could be used to identify and analyze the patterns and characteristics of major power outages in the U.S., and therefore assess the risk predictors more accurately and better prepare for the future power outage.
 
-The original dataset contains 1540 rows and 57 columns. After brief cleaning and dropping irrelevant columns, the dataset we mainly work on has 1534 rows and 17 columns. 
+The original dataset contains 1540 rows and 57 columns. After brief cleaning and dropping irrelevant columns, the dataset we mainly work on has 1534 rows and 16 columns. 
 
 Below are the relevant columns and their explanations:
+- YEAR: Indicates the year when the outage event occurred
 - MONTH : Indicates the month when the outage event occurred
 - U.S._STATE : Represents all the states in the continental U.S.
 - POSTAL.CODE : Represents the postal code of the U.S. states
@@ -22,6 +23,7 @@ Below are the relevant columns and their explanations:
 - OUTAGE.RESTORATION.DATE : This variable indicates the day of the year when power was restored to all the customers
 - OUTAGE.RESTORATION.TIME : This variable indicates the time of the day when power was restored to all the customers
 - CAUSE.CATEGORY : Categories of all the events causing the major power outages
+- HURRICANE.NAMES: If the outage is due to a hurricane, then the hurricane name is given by this variable
 - OUTAGE.DURATION: Duration of outage events (in minutes)
 - CUSTOMERS.AFFECTED : Number of customers affected by the power outage event
 - TOTAL.CUSTOMERS : Annual number of total customers served in the U.S. state
@@ -83,6 +85,22 @@ This is a pivot table describing the joint distribution of climate and causes, w
 
 
 **Missingness Dependency**
+
+The column we choose to focus on that contains missingness is the column CUSTOMERS.AFFECTED. 
+
+The first question that we are going to raise is whether the missingness of CUSTOMER.AFFECTED column depends on CAUSE.CATEGORY column. 
+The null hypothesis is that the distribution of causes of outages when affected_customers is missing is the same as the distribution of causes of outages when affected_customers is not missing.
+The alternative hypothesis is that the two distributions are different.
+After performing the permutation test, we have found that the resulting p-value is 0.0, so we reject the null hypothesis. Therefore, we come to the conclusion that the missingness in the affected_customers column is dependent on causes of power outages.
+
+The second question that we propose is whether the missingness of CUSTOMER.AFFECTED column depends on TOTAL.CUSTOMERS column.
+The null hypothesis is that the distribution of total customers when affected_customers is missing is the same as the distribution of total customers when affected_customers is not missing.
+The alternative hypothesis is that the two distributions are different.
+After doing the permutation test, we have found that the p-value is 0.802. Therefore, we fail to reject the null hypothesis and conclude that the missingness in the affected_customers column is not dependent on total customers.
+
+<iframe src="assets/kde.html" width=800 height=600 frameBorder=0></iframe>
+
+The above graph shows that the two distributions have similar shape, but are centered at different values, so they might not belong to the same population.
 
 ------
 # Hypothesis Testing
