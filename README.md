@@ -54,6 +54,10 @@ This is the histogram of distribution/percentage of the causes of power outages(
 
 **Bivariate Analysis**
 
+<iframe src="assets/climate_cause.html" width=800 height=600 frameBorder=0></iframe>
+
+This is the grouped bar chart between climate and causes. It shows the percentage of each climate in different causes. From the graph, we can see that in every kind of causes, the normal climate has the biggest percentage, followed by the cold climate, and warm climate has relatively the smallest percentage in all causes.
+
 **Interesting Aggregates**
 
 ------
