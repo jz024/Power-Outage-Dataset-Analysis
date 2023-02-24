@@ -2,6 +2,10 @@
 by Jessica Zhang and Tongxun Hu
 
 # Introduction
+
+------
+# Data Cleaning and EDA
+
 **Data Cleaning**
 
 **Univariate Analysis**
@@ -11,7 +15,8 @@ by Jessica Zhang and Tongxun Hu
 **Interesting Aggregates**
 
 ------
-# Data Cleaning and EDA
+# Assessment of Missingness
+
 **NMAR Analysis**
 
 **Missingness Dependency**
@@ -19,16 +24,4 @@ by Jessica Zhang and Tongxun Hu
 ------
 # Hypothesis Testing
 
-new new new
-
 <iframe src="assets/03-eda.html" width=800 height=600 frameBorder=0></iframe>
-
-> blockquote
-1. First item
-2. Second item
-3. Third item
-
-- First item
-- Second item
-- Third item
-`code`
