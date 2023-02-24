@@ -60,6 +60,8 @@ This is the grouped bar chart between climate and causes. It shows the percentag
 
 **Interesting Aggregates**
 
+`print(pivot.to_markdown(index=False))`
+
 |   cold |   normal |   warm |
 |-------:|---------:|-------:|
 |     19 |       28 |     10 |
