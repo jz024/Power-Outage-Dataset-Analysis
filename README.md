@@ -32,5 +32,3 @@ newnewnew
 # Hypothesis Testing
 
 <!-- <iframe src="assets/03-eda.html" width=800 height=600 frameBorder=0></iframe> -->
-
-print(outage.head().to_markdown(index=False))
