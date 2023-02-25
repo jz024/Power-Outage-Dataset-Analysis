@@ -1,5 +1,5 @@
-# Power Outage Data Analysis Report
-by Jessica Zhang and Tongxun Hu
+# Cold or Warm?!
+by Tongxun Hu and Jessica Zhang
 
 # Introduction
 
