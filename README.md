@@ -4,7 +4,8 @@ by Jessica Zhang and Tongxun Hu
 # Introduction
 
 This data analysis report uses power outage dataset as the main source. This dataset includes the major power outage data in the continental U.S. from January 2000 to July 2016. 
-Upon diving into our power outage dataset, we have become curious about whether the main causes of power outages in cold climates are similar to those in warm climates. Specifically, we want to assess whether the distribution of power outage causes is consistent across different climate types. In this part, we intend to analyze and compare the causes of power outages in regions with different climatic conditions.The question that we are going to investigate is: Are the main causes of power outages under cold climates the same as the main causes of power outages under warm climates? 
+
+Upon diving into our power outage dataset, we have become curious about whether the main causes of power outages in cold climates are similar to those in warm climates. Specifically, we want to assess whether the distribution of power outage causes is consistent across different climate types. In this part, we intend to analyze and compare the causes of power outages in regions with different climatic conditions.The question that we are going to investigate is: are the main causes of power outages under cold climates the same as the main causes of power outages under warm climates? 
 
 The question and the information on the dataset is significant because it could be used to identify and analyze the patterns and characteristics of major power outages in the U.S., and therefore assess the risk predictors more accurately and better prepare for the future power outage.
 
@@ -110,7 +111,11 @@ The above graph shows that the two distributions have similar shape, but are cen
 # Hypothesis Testing
 
 The question that we want to solve using the permutation testing is that whether the main causes of power outages under cold climates the same as the main causes of power outages under warm climates. In other words, is the distribution of the causes of power outages the same under cold climates and warm climates?
+
 The null hypothesis is that in the US, the causes of power outages under cold climates and the causes of power outages under the warm climates have the same distribution. The difference between the two observed samples is due to chance.
+
 The alternative hypothesis is that in the US, the distribution of the causes of power outage under the cold climates and the warm climates are different.
+
 We choose to use tvd as our test statistic because we are comparing two categorical data. And we set our significant level to be 0.05, which is a commonly accepted threshold.
+
 After performing the permutation test, our resulting p-value is 0.277, which is greater than 0.05. Therefore, we fail to reject the null hypothesis and conclude that the causes of power outages under cold climates and the causes of power outages under the warm climates will very likely have the same distribution.
