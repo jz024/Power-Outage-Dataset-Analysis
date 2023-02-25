@@ -50,6 +50,7 @@ Below is the head of the cleaned dataframe:
 |   2012 |       6 | Minnesota    | MN            | East North Central | normal             | Tuesday, June 19, 2012                                | 4:30:00 AM                                        | Wednesday, June 20, 2012                                    | 11:00:00 PM                                             | severe weather     | thunderstorm            |               nan |                    2550 |                68200 |           2606813 |
 |   2015 |       7 | Minnesota    | MN            | East North Central | warm               | Saturday, July 18, 2015                               | 2:00:00 AM                                        | Sunday, July 19, 2015                                       | 7:00:00 AM                                              | severe weather     | nan                     |               nan |                    1740 |               250000 |           2673531 |
 
+
 **Univariate Analysis**
 
 <iframe src="assets/cause.html" width=800 height=600 frameBorder=0></iframe>
@@ -109,7 +110,7 @@ After doing the permutation test, we have found that the p-value is 0.802. There
 
 <iframe src="assets/kde.html" width=800 height=600 frameBorder=0></iframe>
 
-The above graph shows that the two distributions have similar shape, but are centered at different values, so they might not belong to the same population.
+The above graph shows that the two distributions have similar shape, but are centered at different values, so we conclude that it's appropriate to use difference in means as the test statistic.
 
 ------
 # Hypothesis Testing
