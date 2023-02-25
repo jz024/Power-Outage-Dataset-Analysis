@@ -77,6 +77,11 @@ This is the grouped bar chart between climate and causes. It shows the percentag
 
 This is a pivot table describing the joint distribution of climate and causes, which is closely related to the question. This pivot table is very helpful since it clearly shows us the distributions of each combination and gives us a sense of what our hypothesis test is going to look like and how should we approach it. 
 
+
+<iframe src="assets/chloro.html" width=800 height=600 frameBorder=0></iframe>
+
+Another interesting plot that we did is the choropleth plot that shows the median outage duration for each state in the U.S.. We get the target columns that we want and groupby state and postal code. We choose to use median because there is a couple of outliers that will significantly affect the result if we use mean.
+
 ------
 # Assessment of Missingness
 
@@ -105,3 +110,8 @@ The above graph shows that the two distributions have similar shape, but are cen
 ------
 # Hypothesis Testing
 
+The question that we want to solve using the permutation testing is that whether the main causes of power outages under cold climates the same as the main causes of power outages under warm climates. In other words, is the distribution of the causes of power outages the same under cold climates and warm climates?
+The null hypothesis is that in the US, the causes of power outages under cold climates and the causes of power outages under the warm climates have the same distribution. The difference between the two observed samples is due to chance.
+The alternative hypothesis is that in the US, the distribution of the causes of power outage under the cold climates and the warm climates are different.
+We choose to use tvd as our test statistic because we are comparing two categorical data. And we set our significant level to be 0.05, which is a commonly accepted threshold.
+After performing the permutation test, our resulting p-value is 0.277, which is greater than 0.05. Therefore, we fail to reject the null hypothesis and conclude that the causes of power outages under cold climates and the causes of power outages under the warm climates will very likely have the same distribution.
