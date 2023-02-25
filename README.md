@@ -23,6 +23,7 @@ Below are the relevant columns and their explanations:
 - OUTAGE.RESTORATION.DATE : This variable indicates the day of the year when power was restored to all the customers
 - OUTAGE.RESTORATION.TIME : This variable indicates the time of the day when power was restored to all the customers
 - CAUSE.CATEGORY : Categories of all the events causing the major power outages
+- CAUSE.CATEGORY.DETAIL : Detailed description of the event categories causing the major power outages
 - HURRICANE.NAMES: If the outage is due to a hurricane, then the hurricane name is given by this variable
 - OUTAGE.DURATION: Duration of outage events (in minutes)
 - CUSTOMERS.AFFECTED : Number of customers affected by the power outage event
