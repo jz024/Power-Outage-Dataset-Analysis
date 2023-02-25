@@ -4,8 +4,7 @@ by Jessica Zhang and Tongxun Hu
 # Introduction
 
 This data analysis report uses power outage dataset as the main source. This dataset includes the major power outage data in the continental U.S. from January 2000 to July 2016. 
-The question that we are going to investigate is: Are the main causes of power outages under cold climates the same as
-the main causes of power outages under warm climates? 
+Upon diving into our power outage dataset, we have become curious about whether the main causes of power outages in cold climates are similar to those in warm climates. Specifically, we want to assess whether the distribution of power outage causes is consistent across different climate types. In this part, we intend to analyze and compare the causes of power outages in regions with different climatic conditions.The question that we are going to investigate is: Are the main causes of power outages under cold climates the same as the main causes of power outages under warm climates? 
 
 The question and the information on the dataset is significant because it could be used to identify and analyze the patterns and characteristics of major power outages in the U.S., and therefore assess the risk predictors more accurately and better prepare for the future power outage.
 
