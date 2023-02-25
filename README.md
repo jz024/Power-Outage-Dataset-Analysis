@@ -92,7 +92,9 @@ Another interesting plot that we did is the choropleth plot that shows the media
 
 **NMAR Analysis**
 
+We believe that the OUTAGE.RESTORATION.DAT column, which records the day of the year when power was restored to customers as reported by the corresponding utility in the region, has a missing mechanism that is NMAR. This means that the missingness of restoration time data is systematically related to the restoration time itself. It is likely that missing values occur when the restoration time exceeds a certain threshold, and the corresponding utility neglects to report the statistics. For instance, if the restoration time for a power outage lasts more than 7 days, the restoration date is less likely to be recorded in the dataset, leading to missing values.
 
+To convert the missing mechanism to MAR, we need to investigate whether the missingness in OUTAGE.RESTORATION.DAT column is related to other variables in the dataset. Obtaining additional data sush as the severity of the power outage would enable us to explain the missingness. Specifically, when we see that more severe power outages are more likely to have missing values in the OUTAGE.RESTORATION.DAT column, we can say that the missingness is related to other variables in the dataset, making the missing mechanism MAR.
 
 **Missingness Dependency**
 
