@@ -32,6 +32,7 @@ Below are the relevant columns and their explanations:
 ------
 # Data Cleaning and EDA
 
+
 **Data Cleaning**
 
 After loading in the data from the csv file, we found that the first four rows were all nan values due to the formatting error, so we dropped these rows. Then we replaced the column names with the original column names in the fifth row, and added the units (located at the sixth row) to the column names. In addition, we dropped many irrelevant columns after carefully reviewing all of them. Moreover, we combined OUTAGE.START.DATE with OUTAGE.START.TIME and OUTAGE.RESTORATION.DATE and OUTAGE.RESTORATION.TIME to get two new columns with Timestamp values (OUTAGE.START and OUTAGE.RESTORATION), while leaving nan as it is. Lastly, since columns that should be numeric are stored as strings, we used pd.to_numeric to change the columns with nan values from string to float, and used astype for those without nan values. 
@@ -75,6 +76,7 @@ This is the grouped bar chart between climate and causes. It shows the percentag
 | system operability disruption |     37 |       59 |     30 |
 
 
+
 This is a pivot table describing the joint distribution of climate and causes, which is closely related to the question. This pivot table is very helpful since it clearly shows us the distributions of each combination and gives us a sense of what our hypothesis test is going to look like and how should we approach it. 
 
 
@@ -84,6 +86,7 @@ Another interesting plot that we did is the choropleth plot that shows the media
 
 ------
 # Assessment of Missingness
+
 
 **NMAR Analysis**
 
